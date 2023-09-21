@@ -1,0 +1,85 @@
+@font-face {
+  font-family: 'Dougenzaka';
+  src: url('/assets/font/KH-Dot-Dougenzaka-12.ttf');
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+  box-sizing: border-box;
+}
+
+li {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+}
+
+.menu-wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.paws {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  width: 10vw;
+  min-height: 100vh;
+  background-color: #ffc1c2;
+}
+
+.paw {
+  width: 8vw;
+  margin: 1vw;
+}
+
+.menu {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  width: 60vw;
+  min-height: 100vh;
+}
+
+.logo {
+  width: 48vw;
+}
+
+.memu-navigation {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 50vw;
+}
+
+.memu-item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Dougenzaka', 'Press Start 2P', sans-serif;
+  font-weight: 700;
+  font-size: 3.7vw;
+  letter-spacing: 0.3vw;
+  color: #000000;
+  width: 38vw;
+  height: 19vh;
+  border: 0.7vw solid black;
+  background-color: #ffc1c2;
+}
+
+.menu-options {
+  margin: 3vw 0;
+}
